@@ -1,14 +1,14 @@
-#include<iostream>
-#include<vector>
-#include<iterator>
+#include <iostream>
+#include <vector>
+#include <iterator>
 #include <algorithm>
 #include <cstdlib>
 #include "Cards.h"
 	Cards::Cards(){}
-	Cards::Cards(char nam,int power)	// constuctor with parameters
+	Cards::Cards(char nam, int power)	// constuctor with parameters
 	{
-		name=nam;
-		bjpower=power;
+		name = nam;
+		bjpower = power;
 	}
 	short Cards::GetPower()const// setters and getters to keep the capsulation
 	{
@@ -24,7 +24,7 @@
 	}
 	void Cards::SetName(char nam)
 	{
-		name=nam;
+		name = nam;
 	}
 	short Cards::GetSuit()const
 	{
@@ -32,5 +32,5 @@
 	}
 	void Cards::SetSuit(short sui)
 	{
-		suit=sui;
+		suit = sui;
 	}

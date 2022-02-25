@@ -6,7 +6,7 @@ class Cards  // each card has name, suit and power on black jack
 	short suit;
 	public:
 	Cards();	//default constructor just in case
-	Cards(char nam,int power);	// constuctor with parameters
+	Cards(char nam, int power);	// constuctor with parameters
 	short GetPower()const;// setters and getters to keep the capsulation
 	char GetName()const;
 	void SetPower(short power);
